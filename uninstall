@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Uninstall 'dotfiles-bash' from 'https://github.com/adrfer/dotfiles-bash.git'
+echo "=> Uninstalling 'dotfiles-bash'..."
+bash <(curl -sL https://raw.github.com/adrfer/dotfiles-bash/master/uninstall)

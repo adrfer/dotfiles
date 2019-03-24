@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Install 'dotfiles-bash' from 'https://github.com/adrfer/dotfiles-bash.git'
+echo "=> Installing 'dotfiles-bash'..."
+bash <(curl -sL https://raw.github.com/adrfer/dotfiles-bash/master/install) && source ~/.bash_profile
