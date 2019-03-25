@@ -7,3 +7,11 @@ bash <(curl -sL https://raw.github.com/adrfer/dotfiles-bash/master/install) && s
 # Install 'dotfiles-readline' from 'https://github.com/adrfer/dotfiles-readline.git'
 echo "=> Installing 'dotfiles-readline'..."
 bash <(curl -sL https://raw.github.com/adrfer/dotfiles-readline/master/install)
+
+# Install 'dotfiles-git' from 'https://github.com/adrfer/dotfiles-git.git'
+echo "=> Installing 'dotfiles-git'..."
+bash <(curl -sL https://raw.github.com/adrfer/dotfiles-git/master/install)
+
+# Install 'dotfiles-vim' from 'https://github.com/adrfer/dotfiles-vim.git'
+echo "=> Installing 'dotfiles-git'..."
+bash <(curl -sL https://raw.github.com/adrfer/dotfiles-vim/master/install)
